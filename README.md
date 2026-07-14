@@ -2,7 +2,7 @@
 
 Repository made to storage some college projects. There is a C project, HTML/CSS project and a database project used in Microsoft Access
 
-[1st:](Matheus1Pontes\College-Projects/FileSystemSimulator.c) The project that was coded in is a simulator of a file system. Simulating storage space, for files and also managing them, such as creating, deleting, editing
+[1st:](https://github.com/Matheus1Pontes/College-Projects/blob/main/FileSystemSimulator.c) The project that was coded in is a simulator of a file system. Simulating storage space, for files and also managing them, such as creating, deleting, editing
 files. 
 
 2nd: The database project was made by me and my group members at the time, we created all the data and meta data for the tables, also adding keys to add relationships
