@@ -1,0 +1,160 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title> Financial Education Form Page </title>
+	<style>
+		body {
+			font-family: "Copperplate", "Copperplate Gothic", sans-serif;
+		}
+		a:hover {
+			background-color: darkred;
+		}
+		a:link {
+			color: gray;
+		}
+		a:visited {
+			color: yellow;
+		}
+		div#info {
+			text-align: center;
+		}
+		div#policy {
+			font-size: 25px;
+		}
+		body {
+			color: white;
+			background-color: black;
+			width: 85%;
+			margin: auto;
+		}
+		footer {
+			text-align: center;
+			padding: 5px;
+		}
+		h1 {
+			text-align: center;
+		}
+		td {
+			padding: 5px;
+		}
+
+		fieldset {
+			display: block;
+			width: 270px;
+		}
+		#text-shadow {
+			text-shadow: 4px 4px gray;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1 style="color:red;"> Feedback </h1>
+		<h3 style="text-align: center; color: violet;" id="text-shadow"> <i> It's a marathon, not a race! </i> </h3>
+		<h3 style="text-align:center"> Contact info: Phone number: 123-456-7890 Email:123pontes@gmail.com </h3>
+		<img src="adult.jpg" alt="adult" style="height: 350px; margin-left: 400px;">
+		<ul>
+			<li> <a href="homepage.html"> Home </a> </li>
+			<li> <a href="saving.html"> Saving </a> </li>
+			<li> <a href="investing.html"> Investing </a> </li>
+			<li> <a href="budgeting.html"> Budgeting </a> </li>
+			<li> <a href="faq.html"> FAQ </a> </li>
+		</ul>
+	</header>
+	<main>
+		<div id="info">
+			<p> This form is here for people who have specific questions or want to give feedback on the website.
+				<br>
+				<br>
+				<div id="policy"> <b> Privacy Policy </b> </div>
+				<br>
+				This data will be used exclusively by me, all the this information is going to my email.
+				<br>
+				I will be using this data to make the website better and also answer any questions you may have!
+			</p>
+		</div>
+		<h2> Information </h2>
+			<form action="123pontes@gmail.com" method="post">
+													<!-- type text -->
+				<p> Email: <input type="text" name="email" value="John123@gmail.com" size="32"> </p>
+				<p> Phone number: <input type="text" name="state" size="24"> </p>
+													<!-- close type text -->
+
+													<!-- type radio -->
+				<fieldset>
+					<legend> What are you most interested in? </legend>
+						<br />
+						<input type="radio" name="finance" value="saving"> Saving
+						<input type="radio" name="finance" value="investing"> Investing
+						<input type="radio" name="finance" value="budgeting"> Budgeting
+				</fieldset>
+													<!-- close type radio-->
+
+													<!-- type checkbox -->
+				<p> If we were to meet, what times would be good for you? 
+					<table width="25%">								
+														<!-- row 1 -->
+						<tr> <td> <input type="checkbox" name="time" value="7-8" style="width:10%"> 7am-8am </td>
+						<td> <input type="checkbox" name="time" value="8-9" style="width:10%"> 8am-9am </td>
+						<td> <input type="checkbox" name="time" value="9-10" style="width:10%"> 9am-10am </td> </tr>
+														<!-- row 2 -->
+						<tr> <td> <input type="checkbox" name="time" value="10-11" style="width:10%"> 10am-11am </td> 
+						<td> <input type="checkbox" name="time" value="11-12" style="width:10%"> 11am-12pm </td> 
+						<td> <input type="checkbox" name="time" value="12-1" style="width:10%"> 12pm-1pm </td> </tr>
+														<!-- row 3 -->
+						<tr> <td> <input type="checkbox" name="time" value="1-2" style="width:10%"> 1pm-2pm </td> 
+						<td> <input type="checkbox" name="time" value="2-3" style="width:10%"> 2pm-3pm </td> 
+						<td> <input type="checkbox" name="time" value="3-4" style="width:10%"> 3pm-4pm </td> </tr>
+					</table>
+				</p>
+													<!-- close type checkbox -->
+
+													<!-- type droplist -->
+				<p> I we were to meet, what day of the week would work for you? 
+					<br />
+					<select name="location" multiple="multiple" size="5" multiple>
+						<option value="Sunday"> Sunday </option>
+						<option value="Monday"> Monday </option>
+						<option value="Tuesday"> Tuesday </option>
+						<option value="Wednesday"> Wednesday </option>
+						<option value="Thursday"> Thursday </option>
+						<option value="Friday"> Friday </option>
+						<option value="Saturday"> Saturday </option>
+						<option value="Not_sure"> I'm not sure yet </option>
+						<option value="weekdays"> Only weekdays </option>
+						<option value="weekends"> Only weekends </option>
+					</select>
+				</p>
+													<!-- close type droplist -->
+
+														<!-- type radio -->
+				<fieldset>
+					<legend> What type of investing are you interested in? </legend>
+						<br />
+						<table>
+							<tr> <td> <input type="radio" name="invest" value="stocks"> Stocks </td> 
+							<td> <input type="radio" name="invest" value="bonds"> Bonds </td> </tr>
+							<tr> <td> <input type="radio" name="invest" value="CDs"> CDs </td>
+							<td> <input type="radio" name="invest" value="Not_interested"> Not interested </td> </tr>
+						</table>
+				</fieldset>
+													<!-- close type radio-->
+
+
+				<p> Do you have any general feedback you would like to share?
+					<textarea name="comments" rows="5" cols="50"> I want to know more about... </textarea>
+				</p>
+
+										<!-- submission -->
+				<p> <input type="Submit" value="Submit form"> </p>
+				<br>
+				<p> <input type="reset" value="Reset answers"> </p>
+			</form>
+	</main>
+	<hr />
+	<footer>
+		&copy; 04/08/2024, Matheus Pontes
+	</footer>
+</body>
+</html>

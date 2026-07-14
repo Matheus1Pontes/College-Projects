@@ -1,0 +1,111 @@
+body {
+	width: 95%;
+	max-width: 1100px;
+	margin: auto;
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 10px;
+}
+
+header {
+	background-color: #D9514EFF;
+	grid-column: span 12;
+	padding: 10px;
+	border: 5px solid limegreen;
+	font-family: "Copperplate", "Copperplate Gothic", sans-serif;
+}
+
+main {
+	background-color: #2A2B2DFF;
+	grid-column: span 12;
+	padding: 10px;
+	border: 5px solid limegreen;
+	font-family: "Copperplate", "Copperplate Gothic", sans-serif;
+}
+
+footer {
+	background-color: #2DA8D8FF;
+	color: black;
+	grid-column: span 12;
+	padding: 10px;
+	border: 5px solid limegreen;
+}
+
+h2 {
+	background-color: rosybrown;
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	grid-column: span 3;
+	grid-row: span 2;
+	padding: 5px;
+	border: 5px solid cyan;
+	margin: auto;
+	text-decoration: underline;
+	font-family: "Copperplate", "Copperplate Gothic", sans-serif;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-size: 45px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 20px;
+	font-style: ;
+	color: gold;
+	padding: 5px;
+	border: 3px inset antiquewhite;
+	background-color: midnightblue;
+}
+
+h4 {
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+}
+
+h3 {
+	color: blueviolet;
+	text-align: center;
+}
+
+main li {
+	margin: 7px;
+	font-size: 30px;
+	color: blanchedalmond;
+}
+
+img {
+	display: block;
+	margin: 10px auto;
+	width: 40%;
+	border: 10px outset black;
+}
+
+a {
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: #350111;
+}
+
+a:hover {
+	background-color: rosybrown;
+}
+
+a:active {
+	color: white;
+}
